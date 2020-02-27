@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://shenzhentong.github.io</id>
+    <title>wkr AK IOI</title>
+    <updated>2020-02-27T00:40:56.828Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://shenzhentong.github.io"/>
+    <link rel="self" href="https://shenzhentong.github.io/atom.xml"/>
+    <subtitle>My Blog</subtitle>
+    <logo>https://shenzhentong.github.io/images/avatar.png</logo>
+    <icon>https://shenzhentong.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, wkr AK IOI</rights>
+</feed>
