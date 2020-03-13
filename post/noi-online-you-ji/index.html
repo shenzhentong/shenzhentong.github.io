@@ -1,10 +1,11 @@
 
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>shenzhentong 的博客</title>
+<title>NOI Online 游记 | shenzhentong 的博客</title>
 <meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +16,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://shenzhentong.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -71,68 +78,47 @@
 
 
       <div class="content-container">
-        
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://shenzhentong.github.io/post/noi-online-you-ji/">
-        <h2 class="post-title">NOI Online 游记</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-03-13</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
+        <div class="post-detail">
+          
+          <h2 class="post-title">NOI Online 游记</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-03-13</span>
             
-              <a href="https://shenzhentong.github.io/tag/t3A742kjK/">
-                CCF
+              <span>
+                <i class="icon-pricetags-outline"></i>
                 
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://shenzhentong.github.io/post/hello-world/">
-        <h2 class="post-title">Hello World!</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-02-27</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://shenzhentong.github.io/tag/j2gCrtQT3/">
-                Other Junk
+                  <a href="https://shenzhentong.github.io/tag/t3A742kjK/">
+                    CCF
+                    
+                  </a>
                 
-              </a>
+              </span>
             
-          </span>
+          </div>
+          <div class="post-content">
+            <p><s>卧室到电脑房一日游</s></p>
+
+          </div>
+        </div>
+
         
+          <div class="next-post">
+            <a class="purple-link" href="https://shenzhentong.github.io/post/hello-world/">
+              <h3 class="post-title">
+                下一篇：Hello World!
+              </h3>
+            </a>
+          </div>
+          
       </div>
-    </div>
-    
-  </section>
 
+      
+        
+          <div id="gitalk-container"></div>
+        
 
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
+        
+      
 
       <div class="site-footer">
   <div class="slogan"></div>
@@ -166,6 +152,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

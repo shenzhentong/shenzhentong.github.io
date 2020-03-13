@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shenzhentong.github.io</id>
-    <title>wkr AK IOI</title>
-    <updated>2020-03-13T10:37:44.768Z</updated>
+    <title>shenzhentong 的博客</title>
+    <updated>2020-03-13T10:40:42.819Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shenzhentong.github.io"/>
     <link rel="self" href="https://shenzhentong.github.io/atom.xml"/>
     <logo>https://shenzhentong.github.io/images/avatar.png</logo>
     <icon>https://shenzhentong.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, wkr AK IOI</rights>
+    <rights>All rights reserved 2020, shenzhentong 的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[NOI Online 游记]]></title>
+        <id>https://shenzhentong.github.io/post/noi-online-you-ji/</id>
+        <link href="https://shenzhentong.github.io/post/noi-online-you-ji/">
+        </link>
+        <updated>2020-03-13T10:38:46.000Z</updated>
+        <content type="html"><![CDATA[<p><s>卧室到电脑房一日游</s></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
         <id>https://shenzhentong.github.io/post/hello-world/</id>
